@@ -3,7 +3,7 @@
     <main-header v-if="showMainHeader"></main-header>
     
     <router-view />
-
+ 
     <cookie-message v-if="getCookieMessage"></cookie-message>
   </div>
 </template>
